@@ -58,7 +58,7 @@ useFromRoute((route) => {
         <tweet-form @added="addTweet" :forced-topic="viewedTopic"></tweet-form>
         <tweet-list :tweets="tweets" :loading="loading"></tweet-list>
         <div v-if="tweets.length === 0" class="p-8 text-gray-500 text-center">
-            No tweets were found in this topic...
+            No sweets were found in this topic...
         </div>
     </div>
 </template>

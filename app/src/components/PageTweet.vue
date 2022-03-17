@@ -28,7 +28,7 @@ watchEffect(async () => {
         Loading...
     </div>
     <div v-else-if="! tweet" class="p-8 text-gray-500 text-center">
-        Tweet not found
+        Sweet not found
     </div>
     <tweet-card v-else :tweet="tweet"></tweet-card>
 </template>
