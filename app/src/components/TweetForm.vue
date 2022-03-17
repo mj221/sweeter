@@ -86,7 +86,7 @@ const send = async () => {
                     :class="canTweet ? 'bg-pink-500' : 'bg-pink-300 cursor-not-allowed'"
                     @click="send"
                 >
-                    Tweet
+                    Sweet!
                 </button>
             </div>
         </div>
