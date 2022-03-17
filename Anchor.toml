@@ -1,0 +1,24 @@
+[features]
+seeds = false
+[programs.localnet]
+solana_twitter = "C4qcWMAu7zi5pZV6UJJqsoX8aRbsxwLq9UB53EgfTwLz"
+
+[programs.devnet]
+solana_twitter = "C4qcWMAu7zi5pZV6UJJqsoX8aRbsxwLq9UB53EgfTwLz"
+
+[programs.mainnet]
+solana_twitter = "C4qcWMAu7zi5pZV6UJJqsoX8aRbsxwLq9UB53EgfTwLz"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/Users/minjaelee/.config/solana/id.json"
+
+[scripts]
+test = "yarn run mocha -t 1000000 tests/"
+copy-idl = "mkdir -p app/src/idl && cp target/idl/solana_twitter.json app/src/idl/solana_twitter.json"
+
+# [workspace]
+# types = "app/src/idl/"
