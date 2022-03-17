@@ -4,7 +4,7 @@
 </p>
 
 Sweeter is a decentralised social media platform inspired by Twitter built using Solana smart contracts and VueJS. Currently deployed with Google App Engine. 
-Sweet away your #HASHTAG of the day!
+Sweet away your favourite #HASHTAG of the day!
 
 Currently runs on the solana devnet. Program account address is here: 
 ```
